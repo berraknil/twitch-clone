@@ -1,0 +1,12 @@
+p {
+  letter-spacing: 1px;
+  padding: .3em 1em;
+}
+
+.img-thumbnail {
+  margin: 1rem 0;
+}
+
+.title-logo {
+  width: 10%;
+}

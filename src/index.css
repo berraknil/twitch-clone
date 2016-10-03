@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Lato',Helvetica, Arial, sans-serif;
+  font-size: 200%;
+}
+
+
+img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.jumbotron {
+  background-color: #F1F1F1;
+
+}
+
+h2 {
+    margin-bottom: 1em;
+    letter-spacing: .2em;
+    font-weight: 600;
+    color: #6441A5;
+}
+
+.well {
+    background-color: white;
+    margin-bottom:2rem;
+    padding:10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.6);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.6);
+}
+
+a {
+  color: #6441A5;
+  font-weight: 600;
+
+}
+
+a:focus,
+a:hover {
+  outline-color: #6441A5;
+  background-color: #6441A5;
+  color: white;
+}

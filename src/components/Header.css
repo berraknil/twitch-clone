@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #6441A5;
+    border: #6441A5;
+}
+
+.nav-links {
+    color: white;
+}
+
+.NavItem {
+    color: white;
+}
+
+.navbar-brand > img{
+    max-height: 100%;
+    fill: white;
+    margin: auto;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: white;
+  background: black;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: black;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-brand {
+    height:7vh;
+}
+
+.navbar-nav li a {
+    line-height: 8vh;
+    height: 7vh;
+    padding-top: 0;
+}
